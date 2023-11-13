@@ -9,6 +9,7 @@
           "foreground": "#FFEB3B",
           "style": "diamond",
           "template": "\u26a1 ",
+          "trailing_diamond": "\ue0c4 ",
           "type": "root"
         },
         {
@@ -23,7 +24,8 @@
           "foreground": "#43CCEA",
           "leading_diamond": "\ue0c5",
           "style": "diamond",
-          "template": "  {{ .UserName }}<transparent> / </>{{ .HostName }}",
+          "template": " {{ .UserName }}<transparent> / </>{{ .HostName }}",
+          "trailing_diamond": "\ue0b0",
           "type": "session"
         },
         {
